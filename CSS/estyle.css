@@ -1,0 +1,30 @@
+*{
+    color: white;
+    background: black;
+    text-align: center;
+}
+img{
+    transition:ease 2s;
+    border: solid 1px white;
+    border-radius: 20px;
+    height: 300px;
+}
+img:hover{
+    height: 400px;
+    box-shadow: 0px 0px 1px #ffffff,
+    0px 0px 2px #ffffff,
+    0px 0px 4px #ffffff,
+    0px 0px 8px #ffffff,
+    0px 0px 12px #ffffff;
+}
+div{
+    margin:60px;
+}
+div:hover{
+    transition: ease 1s;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.contenido{
+    font-size: 25px;
+}
